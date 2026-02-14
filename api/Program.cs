@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
-        policy.WithOrigins("http://localhost:5173", "https://zakat-simulator.netlify.app") // Replace with actual Netlify URL
+        policy.WithOrigins("http://localhost:5173", "https://zakat-simulator-experience.netlify.app") // Replace with actual Netlify URL
               .AllowAnyHeader()
               .AllowAnyMethod());
 });
