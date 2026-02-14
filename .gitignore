@@ -1,0 +1,22 @@
+# Node.js
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vscode/
+.idea/
+
+# .NET
+bin/
+obj/
+appsettings.Development.json
+UserSecrets/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS
+.DS_Store
+Thumbs.db
